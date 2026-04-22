@@ -10,8 +10,8 @@ export default function displayAbout() {
     const textArea = document.createElement('textarea');
     const submitBtn = document.createElement('button');
 
-    phone.textContent = 'Phone: 1234567890';
-    email.textContent = 'Email: hassan@email.com';
+    phone.textContent = '123 456 7890';
+    email.textContent = 'hassan@email.com';
     label.for = 'txt';
     label.textContent = 'We would love to hear from you!'
     textArea.id = 'txt';

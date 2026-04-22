@@ -51,13 +51,15 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background-color: wheat;
-    border: 2rem darkkhaki;
+    background-color: rgb(227, 227, 227);
+    border: 0.5rem solid rgb(125, 125, 125);
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 .hero-img {
-    width: 30vw;
+    width: 25vw;
+    border-radius: 1rem;
 }
 
 .heading {
