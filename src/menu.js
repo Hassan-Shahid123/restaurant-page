@@ -7,6 +7,7 @@ import './menu.css';
 
 export default function displayMenu() {
     const content = document.querySelector('#content');
+    const menuContainer = document.createElement('div');
     const images = [pizza2, pizza3, pizza4, pizza5, pizza6];
     const names = ['Chicken Tikka', 'Chicken Jalapeno', 'Thin Crust', 'Chicken Malai', 'Stuff Crust'];
     const prices = [800, 900, 800, 1000, 1200];
@@ -26,6 +27,10 @@ export default function displayMenu() {
 
         card.classList.add('card');
         card.append(pic, name, price);
-        content.appendChild(card);
+
+        menuContainer.classList.add('menu-wrapper');
+        menuContainer.appendChild(card);
+
+        content.appendChild(menuContainer);
     }
 }

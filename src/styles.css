@@ -5,6 +5,9 @@
 
 body {
     font-family: sans-serif, Arial, Helvetica;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -36,16 +39,20 @@ nav {
 }
 
 .content {
-    padding: 3rem 6rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* height: 100%; */
 }
 
 .hero-wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     background-color: wheat;
-    border: 0.5rem darkkhaki;
+    border: 2rem darkkhaki;
     border-radius: 1rem;
 }
 

@@ -1,6 +1,7 @@
 import "./styles.css";
 import displayHome from './home.js';
 import displayMenu from './menu.js';
+import displayAbout from './about.js';
 
 function display() {
     const header = document.querySelector('header');
@@ -24,6 +25,11 @@ homeBtn.addEventListener('click', () => {
 menuBtn.addEventListener('click', () => {
     content.textContent = "";
     displayMenu();
+});
+
+aboutBtn.addEventListener('click', () => {
+    content.textContent = "";
+    displayAbout();
 });
 
 display();
